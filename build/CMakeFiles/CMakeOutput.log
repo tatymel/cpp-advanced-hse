@@ -1,0 +1,1678 @@
+The system is: Darwin - 23.5.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/3.24.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/3.24.4/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_01440/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_01440.dir/build.make CMakeFiles/cmTC_01440.dir/build
+Building C object CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o -c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o -x c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_01440
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01440.dir/link.txt --verbose=1
+/usr/bin/clang  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o -o cmTC_01440 
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_01440 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld PROJECT:ld-1053.12
+BUILD 15:45:29 Feb  3 2024
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_01440/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_01440.dir/build.make CMakeFiles/cmTC_01440.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o -c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+  ignore line: [Target: arm64-apple-darwin23.5.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o -x c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_01440]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01440.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o -o cmTC_01440 ]
+  ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+  ignore line: [Target: arm64-apple-darwin23.5.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_01440 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [14.0.0] ==> ignore
+    arg [14.4] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_01440] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_01440.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d056c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d056c.dir/build.make CMakeFiles/cmTC_d056c.dir/build
+Building CXX object CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
+ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_d056c
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d056c.dir/link.txt --verbose=1
+/usr/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d056c 
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_d056c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld PROJECT:ld-1053.12
+BUILD 15:45:29 Feb  3 2024
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_d056c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d056c.dir/build.make CMakeFiles/cmTC_d056c.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+  ignore line: [Target: arm64-apple-darwin23.5.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_d056c]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d056c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d056c ]
+  ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+  ignore line: [Target: arm64-apple-darwin23.5.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_d056c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [14.0.0] ==> ignore
+    arg [14.4] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d056c] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_11b5b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_11b5b.dir/build.make CMakeFiles/cmTC_11b5b.dir/build
+Building C object CMakeFiles/cmTC_11b5b.dir/src.c.o
+/usr/bin/clang -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -MD -MT CMakeFiles/cmTC_11b5b.dir/src.c.o -MF CMakeFiles/cmTC_11b5b.dir/src.c.o.d -o CMakeFiles/cmTC_11b5b.dir/src.c.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_11b5b
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11b5b.dir/link.txt --verbose=1
+/usr/bin/clang  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_11b5b.dir/src.c.o -o cmTC_11b5b 
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e9eab/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e9eab.dir/build.make CMakeFiles/cmTC_e9eab.dir/build
+Building CXX object CMakeFiles/cmTC_e9eab.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_e9eab.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_e9eab.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_e9eab.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_e9eab
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9eab.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e9eab.dir/CheckIncludeFile.cxx.o -o cmTC_e9eab 
+
+
+
+Determining if the include file glob.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cada5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cada5.dir/build.make CMakeFiles/cmTC_cada5.dir/build
+Building CXX object CMakeFiles/cmTC_cada5.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_cada5.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_cada5.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_cada5.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_cada5
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cada5.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cada5.dir/CheckIncludeFile.cxx.o -o cmTC_cada5 
+
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_60bc8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_60bc8.dir/build.make CMakeFiles/cmTC_60bc8.dir/build
+Building CXX object CMakeFiles/cmTC_60bc8.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_60bc8.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_60bc8.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_60bc8.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_60bc8
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60bc8.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_60bc8.dir/CheckIncludeFile.cxx.o -o cmTC_60bc8 
+
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cfe22/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cfe22.dir/build.make CMakeFiles/cmTC_cfe22.dir/build
+Building CXX object CMakeFiles/cmTC_cfe22.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_cfe22.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_cfe22.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_cfe22.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_cfe22
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfe22.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cfe22.dir/CheckIncludeFile.cxx.o -o cmTC_cfe22 
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_84e57/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_84e57.dir/build.make CMakeFiles/cmTC_84e57.dir/build
+Building CXX object CMakeFiles/cmTC_84e57.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_84e57.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_84e57.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_84e57.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_84e57
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84e57.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_84e57.dir/CheckIncludeFile.cxx.o -o cmTC_84e57 
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_37b50/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_37b50.dir/build.make CMakeFiles/cmTC_37b50.dir/build
+Building CXX object CMakeFiles/cmTC_37b50.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_37b50.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_37b50.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_37b50.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_37b50
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37b50.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_37b50.dir/CheckIncludeFile.cxx.o -o cmTC_37b50 
+
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_da912/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_da912.dir/build.make CMakeFiles/cmTC_da912.dir/build
+Building CXX object CMakeFiles/cmTC_da912.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_da912.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_da912.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_da912.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_da912
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da912.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_da912.dir/CheckIncludeFile.cxx.o -o cmTC_da912 
+
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6201b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6201b.dir/build.make CMakeFiles/cmTC_6201b.dir/build
+Building CXX object CMakeFiles/cmTC_6201b.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_6201b.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_6201b.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_6201b.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_6201b
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6201b.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6201b.dir/CheckIncludeFile.cxx.o -o cmTC_6201b 
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0bfcf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0bfcf.dir/build.make CMakeFiles/cmTC_0bfcf.dir/build
+Building CXX object CMakeFiles/cmTC_0bfcf.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_0bfcf.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_0bfcf.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_0bfcf.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_0bfcf
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bfcf.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0bfcf.dir/CheckIncludeFile.cxx.o -o cmTC_0bfcf 
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f204e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f204e.dir/build.make CMakeFiles/cmTC_f204e.dir/build
+Building CXX object CMakeFiles/cmTC_f204e.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_f204e.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_f204e.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_f204e.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_f204e
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f204e.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f204e.dir/CheckIncludeFile.cxx.o -o cmTC_f204e 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_33a2a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_33a2a.dir/build.make CMakeFiles/cmTC_33a2a.dir/build
+Building CXX object CMakeFiles/cmTC_33a2a.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_33a2a.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_33a2a.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_33a2a.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_33a2a
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33a2a.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_33a2a.dir/CheckIncludeFile.cxx.o -o cmTC_33a2a 
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_29b14/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_29b14.dir/build.make CMakeFiles/cmTC_29b14.dir/build
+Building CXX object CMakeFiles/cmTC_29b14.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_29b14.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_29b14.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_29b14.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_29b14
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29b14.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_29b14.dir/CheckIncludeFile.cxx.o -o cmTC_29b14 
+
+
+
+Determining size of mode_t passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0d92c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0d92c.dir/build.make CMakeFiles/cmTC_0d92c.dir/build
+Building CXX object CMakeFiles/cmTC_0d92c.dir/HAVE_MODE_T.cpp.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_0d92c.dir/HAVE_MODE_T.cpp.o -MF CMakeFiles/cmTC_0d92c.dir/HAVE_MODE_T.cpp.o.d -o CMakeFiles/cmTC_0d92c.dir/HAVE_MODE_T.cpp.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CheckTypeSize/HAVE_MODE_T.cpp
+Linking CXX executable cmTC_0d92c
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d92c.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0d92c.dir/HAVE_MODE_T.cpp.o -o cmTC_0d92c 
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6f62a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6f62a.dir/build.make CMakeFiles/cmTC_6f62a.dir/build
+Building CXX object CMakeFiles/cmTC_6f62a.dir/HAVE_SSIZE_T.cpp.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_6f62a.dir/HAVE_SSIZE_T.cpp.o -MF CMakeFiles/cmTC_6f62a.dir/HAVE_SSIZE_T.cpp.o.d -o CMakeFiles/cmTC_6f62a.dir/HAVE_SSIZE_T.cpp.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CheckTypeSize/HAVE_SSIZE_T.cpp
+Linking CXX executable cmTC_6f62a
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f62a.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6f62a.dir/HAVE_SSIZE_T.cpp.o -o cmTC_6f62a 
+
+
+
+Determining if the dladdr exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_228c1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_228c1.dir/build.make CMakeFiles/cmTC_228c1.dir/build
+Building CXX object CMakeFiles/cmTC_228c1.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_228c1.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_228c1.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_228c1.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_228c1
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_228c1.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_228c1.dir/CheckSymbolExists.cxx.o -o cmTC_228c1 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dladdr
+  return ((int*)(&dladdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fcntl exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d15ba/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d15ba.dir/build.make CMakeFiles/cmTC_d15ba.dir/build
+Building CXX object CMakeFiles/cmTC_d15ba.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_d15ba.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_d15ba.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_d15ba.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_d15ba
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d15ba.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d15ba.dir/CheckSymbolExists.cxx.o -o cmTC_d15ba 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5ed3a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5ed3a.dir/build.make CMakeFiles/cmTC_5ed3a.dir/build
+Building CXX object CMakeFiles/cmTC_5ed3a.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_5ed3a.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_5ed3a.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_5ed3a.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_5ed3a
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ed3a.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5ed3a.dir/CheckSymbolExists.cxx.o -o cmTC_5ed3a 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pwrite exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a4ab9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a4ab9.dir/build.make CMakeFiles/cmTC_a4ab9.dir/build
+Building CXX object CMakeFiles/cmTC_a4ab9.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_a4ab9.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_a4ab9.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_a4ab9.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_a4ab9
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4ab9.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a4ab9.dir/CheckSymbolExists.cxx.o -o cmTC_a4ab9 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pwrite
+  return ((int*)(&pwrite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaction exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_13006/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_13006.dir/build.make CMakeFiles/cmTC_13006.dir/build
+Building CXX object CMakeFiles/cmTC_13006.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_13006.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_13006.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_13006.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_13006
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13006.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_13006.dir/CheckSymbolExists.cxx.o -o cmTC_13006 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <csignal>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaltstack exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6879d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6879d.dir/build.make CMakeFiles/cmTC_6879d.dir/build
+Building CXX object CMakeFiles/cmTC_6879d.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_6879d.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_6879d.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_6879d.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_6879d
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6879d.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6879d.dir/CheckSymbolExists.cxx.o -o cmTC_6879d 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <csignal>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaltstack
+  return ((int*)(&sigaltstack))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the backtrace exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_88399/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_88399.dir/build.make CMakeFiles/cmTC_88399.dir/build
+Building CXX object CMakeFiles/cmTC_88399.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_88399.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_88399.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_88399.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_88399
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88399.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_88399.dir/CheckSymbolExists.cxx.o -o cmTC_88399 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the backtrace_symbols exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dd330/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dd330.dir/build.make CMakeFiles/cmTC_dd330.dir/build
+Building CXX object CMakeFiles/cmTC_dd330.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_dd330.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_dd330.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_dd330.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_dd330
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd330.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_dd330.dir/CheckSymbolExists.cxx.o -o cmTC_dd330 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace_symbols
+  return ((int*)(&backtrace_symbols))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the abi::__cxa_demangle exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fd271/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fd271.dir/build.make CMakeFiles/cmTC_fd271.dir/build
+Building CXX object CMakeFiles/cmTC_fd271.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_fd271.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_fd271.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_fd271.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_fd271
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd271.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fd271.dir/CheckSymbolExists.cxx.o -o cmTC_fd271 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cxxabi.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+  return ((int*)(&abi::__cxa_demangle))[argc];
+}
+Determining if the getprogname exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1f37b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1f37b.dir/build.make CMakeFiles/cmTC_1f37b.dir/build
+Building CXX object CMakeFiles/cmTC_1f37b.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_1f37b.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_1f37b.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_1f37b.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_1f37b
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f37b.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1f37b.dir/CheckSymbolExists.cxx.o -o cmTC_1f37b 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstdlib>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprogname
+  return ((int*)(&getprogname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE___PROGNAME succeeded with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_03efa/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_03efa.dir/build.make CMakeFiles/cmTC_03efa.dir/build
+Building CXX object CMakeFiles/cmTC_03efa.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE___PROGNAME  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_03efa.dir/src.cxx.o -MF CMakeFiles/cmTC_03efa.dir/src.cxx.o.d -o CMakeFiles/cmTC_03efa.dir/src.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_03efa
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03efa.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_03efa.dir/src.cxx.o -o cmTC_03efa 
+
+
+Source file was:
+#include <cstdlib>
+extern char* __progname;
+int main() { return __progname != nullptr ? EXIT_SUCCESS : EXIT_FAILURE; }
+
+Determining if the gmtime_r exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c5681/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c5681.dir/build.make CMakeFiles/cmTC_c5681.dir/build
+Building CXX object CMakeFiles/cmTC_c5681.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_c5681.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_c5681.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_c5681.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_c5681
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5681.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c5681.dir/CheckSymbolExists.cxx.o -o cmTC_c5681 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstdlib>
+#include <ctime>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gmtime_r
+  return ((int*)(&gmtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the localtime_r exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cbb3e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cbb3e.dir/build.make CMakeFiles/cmTC_cbb3e.dir/build
+Building CXX object CMakeFiles/cmTC_cbb3e.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_cbb3e.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_cbb3e.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_cbb3e.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_cbb3e
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbb3e.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cbb3e.dir/CheckSymbolExists.cxx.o -o cmTC_cbb3e 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstdlib>
+#include <ctime>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef localtime_r
+  return ((int*)(&localtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ccdcf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ccdcf.dir/build.make CMakeFiles/cmTC_ccdcf.dir/build
+Building CXX object CMakeFiles/cmTC_ccdcf.dir/src.cxx.o
+/usr/bin/clang++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE   -fvisibility=hidden -std=gnu++20 -MD -MT CMakeFiles/cmTC_ccdcf.dir/src.cxx.o -MF CMakeFiles/cmTC_ccdcf.dir/src.cxx.o.d -o CMakeFiles/cmTC_ccdcf.dir/src.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ccdcf
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccdcf.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ccdcf.dir/src.cxx.o -o cmTC_ccdcf 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_70c4e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_70c4e.dir/build.make CMakeFiles/cmTC_70c4e.dir/build
+Building CXX object CMakeFiles/cmTC_70c4e.dir/src.cxx.o
+/usr/bin/clang++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE   -fvisibility-inlines-hidden -std=gnu++20 -MD -MT CMakeFiles/cmTC_70c4e.dir/src.cxx.o -MF CMakeFiles/cmTC_70c4e.dir/src.cxx.o.d -o CMakeFiles/cmTC_70c4e.dir/src.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_70c4e
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70c4e.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_70c4e.dir/src.cxx.o -o cmTC_70c4e 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c3973/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c3973.dir/build.make CMakeFiles/cmTC_c3973.dir/build
+Building CXX object CMakeFiles/cmTC_c3973.dir/src.cxx.o
+/usr/bin/clang++ -DCOMPILER_HAS_DEPRECATED_ATTR  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_c3973.dir/src.cxx.o -MF CMakeFiles/cmTC_c3973.dir/src.cxx.o.d -o CMakeFiles/cmTC_c3973.dir/src.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/src.cxx:2:25: warning: 'somefunc' is deprecated [-Wdeprecated-declarations]
+    int main() { return somefunc();}
+                        ^
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/src.cxx:1:16: note: 'somefunc' has been explicitly marked deprecated here
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+               ^
+1 warning generated.
+Linking CXX executable cmTC_c3973
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3973.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c3973.dir/src.cxx.o -o cmTC_c3973 
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+The system is: Darwin - 23.5.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/3.24.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/3.24.4/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ed1ef/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ed1ef.dir/build.make CMakeFiles/cmTC_ed1ef.dir/build
+Building C object CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o -c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+Apple clang version 16.0.0 (clang-1600.0.26.6)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o -x c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_ed1ef
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed1ef.dir/link.txt --verbose=1
+/usr/bin/clang  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o -o cmTC_ed1ef 
+Apple clang version 16.0.0 (clang-1600.0.26.6)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.5.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_ed1ef -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld PROJECT:ld-1115.7.3
+BUILD 23:52:02 Dec  5 2024
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/16/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/16/include;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_ed1ef/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ed1ef.dir/build.make CMakeFiles/cmTC_ed1ef.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5   -v -Wl -v -MD -MT CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o -c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+  ignore line: [Target: arm64-apple-darwin23.5.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o -x c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin23.5.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_ed1ef]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed1ef.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o -o cmTC_ed1ef ]
+  ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+  ignore line: [Target: arm64-apple-darwin23.5.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.5.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_ed1ef -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [14.5.0] ==> ignore
+    arg [15.2] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk] ==> ignore
+    arg [-mllvm] ==> ignore
+    arg [-enable-linkonceodr-outlining] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ed1ef] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_ed1ef.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c8a8a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c8a8a.dir/build.make CMakeFiles/cmTC_c8a8a.dir/build
+Building CXX object CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5   -v -Wl,-v -MD -MT CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+Apple clang version 16.0.0 (clang-1600.0.26.6)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin23.5.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1
+ /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_c8a8a
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8a8a.dir/link.txt --verbose=1
+/usr/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c8a8a 
+Apple clang version 16.0.0 (clang-1600.0.26.6)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.5.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c8a8a -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld PROJECT:ld-1115.7.3
+BUILD 23:52:02 Dec  5 2024
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/16/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/16/include;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_c8a8a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c8a8a.dir/build.make CMakeFiles/cmTC_c8a8a.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5   -v -Wl -v -MD -MT CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+  ignore line: [Target: arm64-apple-darwin23.5.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin23.5.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_c8a8a]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8a8a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c8a8a ]
+  ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+  ignore line: [Target: arm64-apple-darwin23.5.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.5.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c8a8a -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [14.5.0] ==> ignore
+    arg [15.2] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk] ==> ignore
+    arg [-mllvm] ==> ignore
+    arg [-enable-linkonceodr-outlining] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c8a8a] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_c8a8a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_05f4f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_05f4f.dir/build.make CMakeFiles/cmTC_05f4f.dir/build
+Building C object CMakeFiles/cmTC_05f4f.dir/src.c.o
+/usr/bin/clang -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -MD -MT CMakeFiles/cmTC_05f4f.dir/src.c.o -MF CMakeFiles/cmTC_05f4f.dir/src.c.o.d -o CMakeFiles/cmTC_05f4f.dir/src.c.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_05f4f
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05f4f.dir/link.txt --verbose=1
+/usr/bin/clang  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_05f4f.dir/src.c.o -o cmTC_05f4f 
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a755f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a755f.dir/build.make CMakeFiles/cmTC_a755f.dir/build
+Building CXX object CMakeFiles/cmTC_a755f.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_a755f.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_a755f.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_a755f.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_a755f
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a755f.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a755f.dir/CheckIncludeFile.cxx.o -o cmTC_a755f 
+
+
+
+Determining if the include file glob.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c8663/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c8663.dir/build.make CMakeFiles/cmTC_c8663.dir/build
+Building CXX object CMakeFiles/cmTC_c8663.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_c8663.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_c8663.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_c8663.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c8663
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8663.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c8663.dir/CheckIncludeFile.cxx.o -o cmTC_c8663 
+
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_389d3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_389d3.dir/build.make CMakeFiles/cmTC_389d3.dir/build
+Building CXX object CMakeFiles/cmTC_389d3.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_389d3.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_389d3.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_389d3.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_389d3
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_389d3.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_389d3.dir/CheckIncludeFile.cxx.o -o cmTC_389d3 
+
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1debe/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1debe.dir/build.make CMakeFiles/cmTC_1debe.dir/build
+Building CXX object CMakeFiles/cmTC_1debe.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_1debe.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_1debe.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_1debe.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_1debe
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1debe.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1debe.dir/CheckIncludeFile.cxx.o -o cmTC_1debe 
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_44bf0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_44bf0.dir/build.make CMakeFiles/cmTC_44bf0.dir/build
+Building CXX object CMakeFiles/cmTC_44bf0.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_44bf0.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_44bf0.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_44bf0.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_44bf0
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44bf0.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_44bf0.dir/CheckIncludeFile.cxx.o -o cmTC_44bf0 
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e8449/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e8449.dir/build.make CMakeFiles/cmTC_e8449.dir/build
+Building CXX object CMakeFiles/cmTC_e8449.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_e8449.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_e8449.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_e8449.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_e8449
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8449.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e8449.dir/CheckIncludeFile.cxx.o -o cmTC_e8449 
+
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b50c0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b50c0.dir/build.make CMakeFiles/cmTC_b50c0.dir/build
+Building CXX object CMakeFiles/cmTC_b50c0.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_b50c0.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_b50c0.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_b50c0.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_b50c0
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b50c0.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b50c0.dir/CheckIncludeFile.cxx.o -o cmTC_b50c0 
+
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2be17/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2be17.dir/build.make CMakeFiles/cmTC_2be17.dir/build
+Building CXX object CMakeFiles/cmTC_2be17.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_2be17.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_2be17.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_2be17.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2be17
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2be17.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2be17.dir/CheckIncludeFile.cxx.o -o cmTC_2be17 
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_19add/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_19add.dir/build.make CMakeFiles/cmTC_19add.dir/build
+Building CXX object CMakeFiles/cmTC_19add.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_19add.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_19add.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_19add.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_19add
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19add.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_19add.dir/CheckIncludeFile.cxx.o -o cmTC_19add 
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eccb0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_eccb0.dir/build.make CMakeFiles/cmTC_eccb0.dir/build
+Building CXX object CMakeFiles/cmTC_eccb0.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_eccb0.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_eccb0.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_eccb0.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_eccb0
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eccb0.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_eccb0.dir/CheckIncludeFile.cxx.o -o cmTC_eccb0 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c6818/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c6818.dir/build.make CMakeFiles/cmTC_c6818.dir/build
+Building CXX object CMakeFiles/cmTC_c6818.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_c6818.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_c6818.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_c6818.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c6818
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6818.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c6818.dir/CheckIncludeFile.cxx.o -o cmTC_c6818 
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ac06b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ac06b.dir/build.make CMakeFiles/cmTC_ac06b.dir/build
+Building CXX object CMakeFiles/cmTC_ac06b.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_ac06b.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_ac06b.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_ac06b.dir/CheckIncludeFile.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_ac06b
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac06b.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ac06b.dir/CheckIncludeFile.cxx.o -o cmTC_ac06b 
+
+
+
+Determining size of mode_t passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a1870/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a1870.dir/build.make CMakeFiles/cmTC_a1870.dir/build
+Building CXX object CMakeFiles/cmTC_a1870.dir/HAVE_MODE_T.cpp.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_a1870.dir/HAVE_MODE_T.cpp.o -MF CMakeFiles/cmTC_a1870.dir/HAVE_MODE_T.cpp.o.d -o CMakeFiles/cmTC_a1870.dir/HAVE_MODE_T.cpp.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CheckTypeSize/HAVE_MODE_T.cpp
+Linking CXX executable cmTC_a1870
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1870.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a1870.dir/HAVE_MODE_T.cpp.o -o cmTC_a1870 
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b8e56/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b8e56.dir/build.make CMakeFiles/cmTC_b8e56.dir/build
+Building CXX object CMakeFiles/cmTC_b8e56.dir/HAVE_SSIZE_T.cpp.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_b8e56.dir/HAVE_SSIZE_T.cpp.o -MF CMakeFiles/cmTC_b8e56.dir/HAVE_SSIZE_T.cpp.o.d -o CMakeFiles/cmTC_b8e56.dir/HAVE_SSIZE_T.cpp.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CheckTypeSize/HAVE_SSIZE_T.cpp
+Linking CXX executable cmTC_b8e56
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8e56.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b8e56.dir/HAVE_SSIZE_T.cpp.o -o cmTC_b8e56 
+
+
+
+Determining if the dladdr exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_76e8d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_76e8d.dir/build.make CMakeFiles/cmTC_76e8d.dir/build
+Building CXX object CMakeFiles/cmTC_76e8d.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_76e8d.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_76e8d.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_76e8d.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_76e8d
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76e8d.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_76e8d.dir/CheckSymbolExists.cxx.o -o cmTC_76e8d 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dladdr
+  return ((int*)(&dladdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fcntl exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bd865/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bd865.dir/build.make CMakeFiles/cmTC_bd865.dir/build
+Building CXX object CMakeFiles/cmTC_bd865.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_bd865.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_bd865.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_bd865.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_bd865
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd865.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bd865.dir/CheckSymbolExists.cxx.o -o cmTC_bd865 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b4262/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b4262.dir/build.make CMakeFiles/cmTC_b4262.dir/build
+Building CXX object CMakeFiles/cmTC_b4262.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_b4262.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_b4262.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_b4262.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_b4262
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4262.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b4262.dir/CheckSymbolExists.cxx.o -o cmTC_b4262 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pwrite exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d433/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1d433.dir/build.make CMakeFiles/cmTC_1d433.dir/build
+Building CXX object CMakeFiles/cmTC_1d433.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_1d433.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_1d433.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_1d433.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_1d433
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d433.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1d433.dir/CheckSymbolExists.cxx.o -o cmTC_1d433 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pwrite
+  return ((int*)(&pwrite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaction exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_72ae9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_72ae9.dir/build.make CMakeFiles/cmTC_72ae9.dir/build
+Building CXX object CMakeFiles/cmTC_72ae9.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_72ae9.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_72ae9.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_72ae9.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_72ae9
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72ae9.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_72ae9.dir/CheckSymbolExists.cxx.o -o cmTC_72ae9 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <csignal>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaltstack exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3dc85/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3dc85.dir/build.make CMakeFiles/cmTC_3dc85.dir/build
+Building CXX object CMakeFiles/cmTC_3dc85.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_3dc85.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_3dc85.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_3dc85.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_3dc85
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dc85.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3dc85.dir/CheckSymbolExists.cxx.o -o cmTC_3dc85 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <csignal>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaltstack
+  return ((int*)(&sigaltstack))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the backtrace exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_902d4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_902d4.dir/build.make CMakeFiles/cmTC_902d4.dir/build
+Building CXX object CMakeFiles/cmTC_902d4.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_902d4.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_902d4.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_902d4.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_902d4
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_902d4.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_902d4.dir/CheckSymbolExists.cxx.o -o cmTC_902d4 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the backtrace_symbols exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a9123/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a9123.dir/build.make CMakeFiles/cmTC_a9123.dir/build
+Building CXX object CMakeFiles/cmTC_a9123.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_a9123.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_a9123.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_a9123.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_a9123
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9123.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a9123.dir/CheckSymbolExists.cxx.o -o cmTC_a9123 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace_symbols
+  return ((int*)(&backtrace_symbols))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the abi::__cxa_demangle exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8ca23/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8ca23.dir/build.make CMakeFiles/cmTC_8ca23.dir/build
+Building CXX object CMakeFiles/cmTC_8ca23.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_8ca23.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_8ca23.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_8ca23.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_8ca23
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ca23.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8ca23.dir/CheckSymbolExists.cxx.o -o cmTC_8ca23 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cxxabi.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+  return ((int*)(&abi::__cxa_demangle))[argc];
+}
+Determining if the getprogname exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4660c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4660c.dir/build.make CMakeFiles/cmTC_4660c.dir/build
+Building CXX object CMakeFiles/cmTC_4660c.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_4660c.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_4660c.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_4660c.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_4660c
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4660c.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4660c.dir/CheckSymbolExists.cxx.o -o cmTC_4660c 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstdlib>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprogname
+  return ((int*)(&getprogname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE___PROGNAME succeeded with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7f35c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7f35c.dir/build.make CMakeFiles/cmTC_7f35c.dir/build
+Building CXX object CMakeFiles/cmTC_7f35c.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE___PROGNAME  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_7f35c.dir/src.cxx.o -MF CMakeFiles/cmTC_7f35c.dir/src.cxx.o.d -o CMakeFiles/cmTC_7f35c.dir/src.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7f35c
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f35c.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7f35c.dir/src.cxx.o -o cmTC_7f35c 
+
+
+Source file was:
+#include <cstdlib>
+extern char* __progname;
+int main() { return __progname != nullptr ? EXIT_SUCCESS : EXIT_FAILURE; }
+
+Determining if the gmtime_r exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a1c35/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a1c35.dir/build.make CMakeFiles/cmTC_a1c35.dir/build
+Building CXX object CMakeFiles/cmTC_a1c35.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_a1c35.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_a1c35.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_a1c35.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_a1c35
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1c35.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a1c35.dir/CheckSymbolExists.cxx.o -o cmTC_a1c35 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstdlib>
+#include <ctime>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gmtime_r
+  return ((int*)(&gmtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the localtime_r exist passed with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_21f35/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_21f35.dir/build.make CMakeFiles/cmTC_21f35.dir/build
+Building CXX object CMakeFiles/cmTC_21f35.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_21f35.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_21f35.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_21f35.dir/CheckSymbolExists.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_21f35
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21f35.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_21f35.dir/CheckSymbolExists.cxx.o -o cmTC_21f35 
+
+
+File /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstdlib>
+#include <ctime>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef localtime_r
+  return ((int*)(&localtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_98f80/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_98f80.dir/build.make CMakeFiles/cmTC_98f80.dir/build
+Building CXX object CMakeFiles/cmTC_98f80.dir/src.cxx.o
+/usr/bin/clang++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE   -fvisibility=hidden -std=gnu++20 -MD -MT CMakeFiles/cmTC_98f80.dir/src.cxx.o -MF CMakeFiles/cmTC_98f80.dir/src.cxx.o.d -o CMakeFiles/cmTC_98f80.dir/src.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_98f80
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98f80.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_98f80.dir/src.cxx.o -o cmTC_98f80 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_89a42/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_89a42.dir/build.make CMakeFiles/cmTC_89a42.dir/build
+Building CXX object CMakeFiles/cmTC_89a42.dir/src.cxx.o
+/usr/bin/clang++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE   -fvisibility-inlines-hidden -std=gnu++20 -MD -MT CMakeFiles/cmTC_89a42.dir/src.cxx.o -MF CMakeFiles/cmTC_89a42.dir/src.cxx.o.d -o CMakeFiles/cmTC_89a42.dir/src.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_89a42
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89a42.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_89a42.dir/src.cxx.o -o cmTC_89a42 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_329a5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_329a5.dir/build.make CMakeFiles/cmTC_329a5.dir/build
+Building CXX object CMakeFiles/cmTC_329a5.dir/src.cxx.o
+/usr/bin/clang++ -DCOMPILER_HAS_DEPRECATED_ATTR  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIE -std=gnu++20 -MD -MT CMakeFiles/cmTC_329a5.dir/src.cxx.o -MF CMakeFiles/cmTC_329a5.dir/src.cxx.o.d -o CMakeFiles/cmTC_329a5.dir/src.cxx.o -c /Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/src.cxx:2:25: warning: 'somefunc' is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                         ^
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/CMakeFiles/CMakeTmp/src.cxx:1:16: note: 'somefunc' has been explicitly marked deprecated here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                ^
+1 warning generated.
+Linking CXX executable cmTC_329a5
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_329a5.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_329a5.dir/src.cxx.o -o cmTC_329a5 
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Wall -Wextra -Wpedantic -g -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/bench_sync_map.dir/sync_map_bench.cpp.o CMakeFiles/bench_sync_map.dir/hazard_ptr.cpp.o -o ../../../bench_sync_map  ../../../libbenchmark.a -lpthread -ldl 

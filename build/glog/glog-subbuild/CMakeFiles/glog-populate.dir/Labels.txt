@@ -1,0 +1,14 @@
+# Target labels
+ glog-populate
+# Source files and their labels
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/glog/glog-subbuild/CMakeFiles/glog-populate
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/glog/glog-subbuild/CMakeFiles/glog-populate.rule
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/glog/glog-subbuild/CMakeFiles/glog-populate-complete.rule
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/glog/glog-subbuild/glog-populate-prefix/src/glog-populate-stamp/glog-populate-build.rule
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/glog/glog-subbuild/glog-populate-prefix/src/glog-populate-stamp/glog-populate-configure.rule
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/glog/glog-subbuild/glog-populate-prefix/src/glog-populate-stamp/glog-populate-download.rule
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/glog/glog-subbuild/glog-populate-prefix/src/glog-populate-stamp/glog-populate-install.rule
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/glog/glog-subbuild/glog-populate-prefix/src/glog-populate-stamp/glog-populate-mkdir.rule
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/glog/glog-subbuild/glog-populate-prefix/src/glog-populate-stamp/glog-populate-patch.rule
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/glog/glog-subbuild/glog-populate-prefix/src/glog-populate-stamp/glog-populate-test.rule
+/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/glog/glog-subbuild/glog-populate-prefix/src/glog-populate-stamp/glog-populate-update.rule

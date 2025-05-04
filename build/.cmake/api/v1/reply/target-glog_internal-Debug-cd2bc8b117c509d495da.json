@@ -1,0 +1,317 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "glog/glog-build/CMakeFiles/glog_internal.dir/src/demangle.cc.o"
+		},
+		{
+			"path" : "glog/glog-build/CMakeFiles/glog_internal.dir/src/flags.cc.o"
+		},
+		{
+			"path" : "glog/glog-build/CMakeFiles/glog_internal.dir/src/logging.cc.o"
+		},
+		{
+			"path" : "glog/glog-build/CMakeFiles/glog_internal.dir/src/raw_logging.cc.o"
+		},
+		{
+			"path" : "glog/glog-build/CMakeFiles/glog_internal.dir/src/signalhandler.cc.o"
+		},
+		{
+			"path" : "glog/glog-build/CMakeFiles/glog_internal.dir/src/stacktrace.cc.o"
+		},
+		{
+			"path" : "glog/glog-build/CMakeFiles/glog_internal.dir/src/symbolize.cc.o"
+		},
+		{
+			"path" : "glog/glog-build/CMakeFiles/glog_internal.dir/src/utilities.cc.o"
+		},
+		{
+			"path" : "glog/glog-build/CMakeFiles/glog_internal.dir/src/vlog_is_on.cc.o"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"build/glog/glog-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 390,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 499,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 497,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 394,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -Wextra -Wpedantic -g -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "GLOG_NO_SYMBOLIZE_DETECTION"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "GLOG_USE_GLOG_EXPORT"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "GOOGLE_GLOG_IS_A_DLL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/glog/glog-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/tmelnik/Desktop/infer/cpp-advanced-hse/build/glog/glog-build"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				11,
+				13,
+				14,
+				15,
+				16,
+				17,
+				19,
+				21,
+				23
+			]
+		}
+	],
+	"id" : "glog_internal::@bb2f01dd6ec990609d83",
+	"name" : "glog_internal",
+	"paths" : 
+	{
+		"build" : "glog/glog-build",
+		"source" : "build/glog/glog-src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				12,
+				18,
+				20,
+				22
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				11,
+				13,
+				14,
+				15,
+				16,
+				17,
+				19,
+				21,
+				23
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-build/glog/export.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-src/src/glog/log_severity.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-src/src/glog/logging.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-src/src/glog/platform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-src/src/glog/raw_logging.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-src/src/glog/stl_logging.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-src/src/glog/types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-src/src/glog/flags.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-src/src/glog/vlog_is_on.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-src/src/base/commandlineflags.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-src/src/base/googleinit.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/glog/glog-src/src/demangle.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-src/src/demangle.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/glog/glog-src/src/flags.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/glog/glog-src/src/logging.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/glog/glog-src/src/raw_logging.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/glog/glog-src/src/signalhandler.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/glog/glog-src/src/stacktrace.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-src/src/stacktrace.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/glog/glog-src/src/symbolize.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-src/src/symbolize.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/glog/glog-src/src/utilities.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/glog/glog-src/src/utilities.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/glog/glog-src/src/vlog_is_on.cc",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}
