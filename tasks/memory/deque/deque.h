@@ -2,6 +2,7 @@
 
 #include <initializer_list>
 #include <algorithm>
+#include <iostream>
 #include <deque>
 
 class Deque {
@@ -9,10 +10,24 @@ public:
     Deque() = default;
     Deque(const Deque& rhs) = default;
     Deque(Deque&& rhs) = default;
-    explicit Deque(size_t size) : data_(size) {
+    explicit Deque(size_t size)
+        : BlocksSize_(1 + size/BLOCK_SIZE)
+        , Blocks_(BlocksSize_)
+    {
+        HeadPtr_ = Blocks_[0];
+        TailPtr_ = Blocks_.back();
+
+        HeadOffset_ = 0;
+        TailOffset_ = BLOCK_SIZE;
     }
 
-    Deque(std::initializer_list<int> list) : data_(list) {
+    Deque(std::initializer_list<int> list)
+        : BlocksSize_(1 + list.size()/BLOCK_SIZE)
+        , Blocks_(BlocksSize_)
+    {
+        for (int obj : list) {
+            PushBack(obj);
+        }
     }
 
     Deque& operator=(Deque rhs) {
@@ -57,5 +72,12 @@ public:
     }
 
 private:
-    std::deque<int> data_;
+    constexpr static size_t BLOCK_SIZE = 512;
+
+    std::vector<std::shared_ptr<int[BLOCK_SIZE]>> Blocks_;
+    std::shared_ptr<int[BLOCK_SIZE]> HeadPtr_;
+    std::shared_ptr<int[BLOCK_SIZE]> TailPtr_;
+    size_t HeadOffset_;
+    size_t TailOffset_;
+    size_t BlocksSize_;
 };

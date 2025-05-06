@@ -1,0 +1,5 @@
+/Users/tmelnik/Desktop/infer/cources/cpp-advanced-hse/tasks/memory/deque/build/CMakeFiles/test-all.dir
+/Users/tmelnik/Desktop/infer/cources/cpp-advanced-hse/tasks/memory/deque/build/CMakeFiles/build-ctf.dir
+/Users/tmelnik/Desktop/infer/cources/cpp-advanced-hse/tasks/memory/deque/build/CMakeFiles/test_deque.dir
+/Users/tmelnik/Desktop/infer/cources/cpp-advanced-hse/tasks/memory/deque/build/CMakeFiles/edit_cache.dir
+/Users/tmelnik/Desktop/infer/cources/cpp-advanced-hse/tasks/memory/deque/build/CMakeFiles/rebuild_cache.dir

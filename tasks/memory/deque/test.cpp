@@ -5,7 +5,7 @@
 #include <random>
 #include <deque>
 
-#include <deque.h>
+#include "deque.h"
 
 void Check(const Deque& actual, const std::vector<int>& expected) {
     REQUIRE(actual.Size() == expected.size());

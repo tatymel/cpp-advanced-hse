@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=14.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test_dedup.dir/test.cpp.o "CMakeFiles/test_dedup.dir/Users/tmelnik/Desktop/infer/cources/cpp-advanced-hse/contrib/catch/catch_main.cpp.o" -o test_dedup 
