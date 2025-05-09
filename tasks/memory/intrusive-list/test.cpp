@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-#include <intrusive_list.h>
+#include "intrusive_list.h"
 
 struct Item : public ListHook {
     explicit Item(int i) : i(i), blob("abcdefgh") {

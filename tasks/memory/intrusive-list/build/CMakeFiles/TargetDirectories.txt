@@ -1,0 +1,5 @@
+/Users/tmelnik/Desktop/infer/cources/cpp-advanced-hse/tasks/memory/intrusive-list/build/CMakeFiles/test-all.dir
+/Users/tmelnik/Desktop/infer/cources/cpp-advanced-hse/tasks/memory/intrusive-list/build/CMakeFiles/build-ctf.dir
+/Users/tmelnik/Desktop/infer/cources/cpp-advanced-hse/tasks/memory/intrusive-list/build/CMakeFiles/test_intrusive_list.dir
+/Users/tmelnik/Desktop/infer/cources/cpp-advanced-hse/tasks/memory/intrusive-list/build/CMakeFiles/edit_cache.dir
+/Users/tmelnik/Desktop/infer/cources/cpp-advanced-hse/tasks/memory/intrusive-list/build/CMakeFiles/rebuild_cache.dir
