@@ -1,6 +1,6 @@
 #include <catch.hpp>
 #include <util.h>
-#include <lru_cache.h>
+#include "lru_cache.h"
 
 TEST_CASE("Set and get", "[LruCache]") {
     LruCache cache(10);
