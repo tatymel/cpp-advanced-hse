@@ -64,8 +64,9 @@ public:
         }
 
         Iterator operator++(int) {
+            Iterator tmp = *this;
             Cur_ = Cur_->Right_;
-            return Iterator(Cur_->Left_);
+            return tmp;
         }
 
         T& operator*() const {
@@ -90,22 +91,44 @@ public:
     List() : Dummy_(&Dummy_, &Dummy_) {}
     List(const List&) = delete;
     List(List&& other) {
-        Dummy_ = other.Dummy_;
-        other.Dummy_.Right_ = other.Dummy_.Left_ = &other.Dummy_;
+        if (other.IsEmpty()) {
+            Dummy_.Right_ = Dummy_.Left_ = &Dummy_;
+        } else {
+            Dummy_.Left_ = other.Dummy_.Left_;
+            Dummy_.Right_ = other.Dummy_.Right_;
+            Dummy_.Left_->Right_ = &Dummy_;
+            Dummy_.Right_->Left_ = &Dummy_;
+
+            other.Dummy_.Right_ = other.Dummy_.Left_ = &other.Dummy_;
+        }
     }
 
     // must unlink all elements from list
     ~List() {
-        while (Dummy_.Left_ != &Dummy_) {
+        while (!IsEmpty()) {
             Dummy_.Left_->Unlink();
         }
     }
 
     List& operator=(const List&) = delete;
     List& operator=(List&& other) {
-        Dummy_ = other.Dummy_;
-        other.Dummy_.Right_ = other.Dummy_.Left_ = &other.Dummy_;
+        if (this != &other) {
 
+            while (!IsEmpty()) {
+                Dummy_.Left_->Unlink();
+            }
+            
+            if (other.IsEmpty()) {
+                Dummy_.Right_ = Dummy_.Left_ = &Dummy_;
+            } else {
+                Dummy_.Left_ = other.Dummy_.Left_;
+                Dummy_.Right_ = other.Dummy_.Right_;
+                Dummy_.Left_->Right_ = &Dummy_;
+                Dummy_.Right_->Left_ = &Dummy_;
+
+                other.Dummy_.Right_ = other.Dummy_.Left_ = &other.Dummy_;
+            }
+        }
         return *this;
     }
 
