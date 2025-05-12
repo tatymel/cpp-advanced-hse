@@ -1,6 +1,6 @@
 #include <catch.hpp>
 
-#include <cow_vector.h>
+#include "cow_vector.h"
 
 TEST_CASE("Simple vector operations") {
     COWVector v;
