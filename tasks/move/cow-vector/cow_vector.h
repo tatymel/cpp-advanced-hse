@@ -17,85 +17,30 @@ struct State {
 
 class COWVector {
 public:
-    COWVector() {
-        State_ = new State();
-    };
-    ~COWVector() noexcept {
-        if (State_->RefCount == 1) {
-            delete State_;
-        }
-    };
+    COWVector();
+    ~COWVector() noexcept;
 
-    COWVector(const COWVector& other) {
-        State_ = other.State_;
-        ++State_->RefCount;
-    }
+    COWVector(const COWVector& other);
+    COWVector& operator=(const COWVector& other);
 
-    COWVector(COWVector&& other) noexcept {
-        State_ = other.State_;
-        other.State_ = new State();
-    }
+    COWVector(COWVector&& other) noexcept;
+    COWVector& operator=(COWVector&& other) noexcept;
 
-    COWVector& operator=(const COWVector& other) {
-        if (this == &other) { return *this; }
+    size_t Size() const;
 
-        ProcessDecrementRef();
-        State_ = other.State_;
-        ++State_->RefCount;
+    void Resize(size_t size);
 
-        return *this;
-    }
+    const std::string& Get(size_t at) const;
+    const std::string& Back() const;
 
-    COWVector& operator=(COWVector&& other) noexcept {
-        if (this == &other) { return *this; }
+    void PushBack(const std::string& value);
 
-        ProcessDecrementRef();
-        State_ = other.State_;
-        other.State_ = new State();
-
-        return *this;
-    }
-
-    size_t Size() const { return State_->Vector.size(); }
-
-    void Resize(size_t size) {
-        EnsureUnique();
-        State_->Vector.resize(size);
-    }
-
-    const std::string& Get(size_t at) const { return State_->Vector[at]; }
-
-    const std::string& Back() const { return State_->Vector.back(); }
-
-    void PushBack(const std::string& value) {
-        EnsureUnique();
-        State_->Vector.push_back(value);
-    }
-
-    void Set(size_t at, const std::string& value) {
-        EnsureUnique();
-        State_->Vector[at] = value;
-    }
+    void Set(size_t at, const std::string& value);
 
 private:
-    void EnsureUnique() {
-        if (State_->RefCount > 1) {
-            DeepCopy();
-        }
-    }
-
-    void DeepCopy() {
-        State* newState = new State(State_->Vector);
-        ProcessDecrementRef();
-        State_ = newState;
-    }
-
-    void ProcessDecrementRef() {
-        --State_->RefCount;
-        if (State_->RefCount == 0) {
-            delete State_;
-        }
-    }
+    void EnsureUnique();
+    void DeepCopy();
+    void ProcessDecrementRef();
 
 private:
     State* State_;

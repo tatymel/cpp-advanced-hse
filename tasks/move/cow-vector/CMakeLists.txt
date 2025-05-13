@@ -16,6 +16,7 @@ endif()
 
 add_executable(test_cow_vector 
     cow_vector_test.cpp
+    cow_vector.cpp
     ${CATCH_MAIN_SOURCE}
 )
 
